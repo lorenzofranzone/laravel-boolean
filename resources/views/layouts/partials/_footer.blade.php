@@ -4,6 +4,9 @@
             <li><a href="{{route('static_page.faq')}}">Domande frequenti</a></li>
          </ul>
       </nav>
+      @yield('footer')
+      @yield('scripts')
+
    
    </div>
 
