@@ -8,6 +8,8 @@ class StaticPageController extends Controller
 {
     //
     public function index(){
+        $students = config('students.students');
+        dd($students);
         return view('staticpages.index');
     }
 
