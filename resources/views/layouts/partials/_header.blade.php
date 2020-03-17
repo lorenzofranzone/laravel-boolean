@@ -9,12 +9,12 @@
    
    <div class="container">
 
-      <!-- <nav>
+      <nav>
          <ul>
-            <li><a href="#">Home</a></li>
+            <li><a href="{{route('static_page.home')}}">Home</a></li>
             <li><a href="#">Corso</a></li>
-            <li><a href="#"></a>Dopo Corso</li>
+            <li><a href="{{route('student.index')}}">Dopo Corso</a></li>
             <li><a href="#">Lezione gratuita</a></li>
             <li><a href="#">Candidati ora</a></li>
          </ul>
-      </nav> -->
+      </nav>
