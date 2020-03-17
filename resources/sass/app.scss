@@ -45,7 +45,7 @@ header {
 
    .logo {
       height: 100%;
-      flex-basis: 50%;
+      flex-basis: 55%;
 
       a {
          display: block;
@@ -59,7 +59,7 @@ header {
 
    nav {
 
-      flex-basis: 50%;
+      flex-basis: 45%;
       align-self: center;
      
       ul{
@@ -82,10 +82,14 @@ header {
                &:hover, &.active {
                   border-bottom: 2px solid #61ce4e;
                   padding-bottom: 6px;
-               }
+               } // :hover
 
-               &.btn { margin-left: 24px;}
-            }
+               &.btn { 
+                  padding: 0 32px;
+                  font-style: 16px;
+               } // btn
+
+            } // Link
 
          } // li
       }
