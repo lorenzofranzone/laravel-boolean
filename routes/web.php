@@ -18,7 +18,7 @@ use Illuminate\Support\Facades\Route;
 // });
 
 // STATIC PAGE
-Route::get('/', 'StaticPageController@index')->name('home');
+Route::get('/', 'StaticPageController@index')->name('static_page.home');
 Route::get('/privacy', 'StaticPage@privacy')->name('static_page.privacy');
 Route::get('/faq', 'StaticPage@faq')->name('static_page.faq');
 
