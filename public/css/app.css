@@ -6,6 +6,11 @@
   box-sizing: border-box;
 }
 
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
 .btn {
   border-radius: 5px;
   height: 40px;
@@ -139,5 +144,32 @@ main .hero .content p {
   font-size: 22px;
   line-height: 1.2;
   font-weight: 400;
+}
+
+main .numbers {
+  background: #e8ebf1;
+  padding: 40px 0;
+  text-align: center;
+}
+
+main .numbers .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+main .numbers .container .box {
+  width: 280px;
+}
+
+main .numbers .container .box .title {
+  font-size: 49.5px;
+  font-weight: 300;
+  margin-bottom: 8px;
+}
+
+main .numbers .container .box p {
+  font-size: 19px;
+  font-weight: 300;
+  margin-bottom: 16px;
 }
 
