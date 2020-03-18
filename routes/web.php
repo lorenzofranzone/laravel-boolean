@@ -19,10 +19,13 @@ use Illuminate\Support\Facades\Route;
 
 // STATIC PAGE
 Route::get('/', 'StaticPageController@index')->name('static_page.home');
+
 Route::get('/privacy', 'StaticPageController@privacy')->name('static_page.privacy');
+
 Route::get('/faq', 'StaticPageController@faq')->name('static_page.faq');
 
 // STUDENTI
 Route::get('/students', 'StudentController@index')->name('student.index');
+
 Route::get('/students/show/{id}', 'StudentController@show')->name('student.show');
 
