@@ -11,22 +11,30 @@
    
 </div>
 
-<div class="numbers">
+<div class="container-fluid section grey">
 
    <div class="container">
-      <div class="box">
-         <div class="title">62.000</div>
-         <p>Le posizioni di lavoro aperte in ambito ICT in Italia nel triennio 2019-2021.</p>
-      </div>
-      <div class="box">
-         <div class="title">49,1%</div>
-         <p>La percentuale delle posizioni aperte sopracitate dedicata agli sviluppatori.</p>
-      </div>
-      <div class="box">
-         <div class="title">12</div>
-         <p>I giorni che mediamente trascorrono dalla fine delle lezioni al primo colloquio.</p>
-      </div>
+      <div class="row">
+      <div class="col-4">
+         <div class="box">
+            <div class="title">62.000</div>
+            <p>Le posizioni di lavoro aperte in ambito ICT in Italia nel triennio 2019-2021.</p>
+         </div>
+         </div>
+         <div class="col-4">
+         <div class="box">
+            <div class="title">49,1%</div>
+            <p>La percentuale delle posizioni aperte sopracitate dedicata agli sviluppatori.</p>
+         </div>
+         </div>
+         <div class="col-4">
+         <div class="box">
+            <div class="title">12</div>
+            <p>I giorni che mediamente trascorrono dalla fine delle lezioni al primo colloquio.</p>
+         </div>
+      </div>   
    </div>
+</div>
    
 </div>
 

@@ -1,4 +1,6 @@
 //
+@import '~bootstrap/scss/bootstrap';
+
 * { padding: 0; margin: 0; box-sizing: border-box; }
 .container { width: 1140px; margin:0 auto; }
 .btn {
@@ -19,8 +21,9 @@
 
 
 body { 
-   font-family: Arial, Helvetica, sans-serif;
+   font-family: 'Rubik', sans-serif;
    font-size: 16px;
+   font-weight: 400;
    color: #1b3c59;
 
    a, a:link, a:hover, a:active, a:focus, a:hover {
@@ -78,10 +81,12 @@ header {
                margin: 0 5px;
                display: inline-block;
                white-space: nowrap;
+               color: #1b3c59;
                
                &:hover, &.active {
                   border-bottom: 2px solid #61ce4e;
                   padding-bottom: 6px;
+                  color: #1b3c59;
                } // :hover
                
                &.btn { 
@@ -150,34 +155,42 @@ main {
       } // Content
    
    } // HERO
+
+   // //////////////////////////////////////////////////
+   // S E C T I O N S
+   // //////////////////////////////////////////////////
    
-   .numbers {
+   [class*="section"] {
       
-      background: #e8ebf1;
       padding: 40px 0;
       text-align: center;
       
-      .container {
+      &.grey {
+         background: #e8ebf1;
+      }
+      &.blue {
+         background: #1b3c59;
+         color: #fff;
+      }
+      
+      .box {
          
-         display: flex;
-         justify-content: space-between;
+         width: 280px;
          
-         .box {
-            width: 280px;
-            
-            .title {
-               font-size: 49.5px;
-               font-weight: 300;
-               margin-bottom: 8px;
-            }
-            
-            p {
-               font-size: 19px;
-               font-weight: 300;
-               margin-bottom: 16px;
-            }
+         .title {
+            font-size: 49.5px;
+            font-weight: 300;
+            margin-bottom: 8px;
+         }
+         
+         p {
+            font-size: 19px;
+            font-weight: 300;
+            margin-bottom: 16px;
          }
       }
+
+
    } // Numbers
 
    // SCHEDE STUDENTS
@@ -238,6 +251,38 @@ main {
    
    } // Students
 
+   // //////////////////////////////////////////////////
+   // H E R O
+   // //////////////////////////////////////////////////
+
+   .jumbo {
+
+      padding: 80px 0;
+
+      h1 {
+         font-size: 58.5px;
+         line-height: 1.1;
+         font-weight: 300;
+         text-transform: uppercase;
+         padding-bottom: 50px;
+      }
+      
+      p {
+         font-size: 22px;
+         line-height: 1.2;
+         font-weight: 500;
+      }
+
+      ul {
+         list-style-position: inside;
+      }
+
+      img {
+         max-width: 100%;
+      }
+
+   } // HERO
+
 } // MAIN
 
 
@@ -246,5 +291,5 @@ main {
 // //////////////////////////////////////////////////
 
 footer {
-   background: pink;
+   background: darkred;
 }
